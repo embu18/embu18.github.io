@@ -63,3 +63,10 @@ input[type="checkbox"] {
   color: white;
   font-weight: normal;
 }
+a {
+  text-decoration: none;
+  color: teal;
+}
+a:hover {
+  text-decoration: underline;
+}

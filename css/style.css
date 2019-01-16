@@ -2,7 +2,7 @@ body {
   background-color: #242424;
 }
 form {
-  width: 36%;
+  width: 300px;
   border: 1px solid #ffffff;
   margin: 60px;
   padding: 18px;
@@ -11,12 +11,11 @@ form {
 .inputs {
   width: 180px;
   margin: 9px;
+  color: #ffffff;
 }
 
 .buttons {
   width: 90px;
   margin: 9px;
-}
-label {
   color: #ffffff;
 }

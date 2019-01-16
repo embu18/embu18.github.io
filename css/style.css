@@ -2,41 +2,54 @@ body {
   background-color: #242424;
 }
 form {
-  width: 200px;
-  height: 150px;
+  width: 240px;
+  height: 180px;
   padding:18px;
 
   margin-top: 10%;
   margin-left: 30%;
-  position: absolute;
   border: 1px solid #ffffff;
   border-radius: 6px;
+  box-shadow: 0 0 60px #008080;
 
   color:#ffffff;
-  box-shadow: 0 0 18px #cccccc;
+  font-size: 18px;
 }
-
-input {
-  height: 18px;
-  width: auto;
+.inputs {
+  height: 24px;
+  width: 80%;
   border: none;
   border-radius: 5px;
   margin: 6px;
+  margin-bottom: 6%;
+  margin-left: 10%;
 
   background-color: #424242;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   text-align: center;
+  font-size: 18px;
 }
 .inputs:hover {
-  width: 80%;
-  background-color: #265b5f;
+  background-color: #008080;
 }
 .buttons {
-  width: 80px;
-  height: 20px;
-  position: relative;
+  height: 13%;
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+  margin: 9px;
+  margin-left: 30%;
+
+  background-color: #424242;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
 }
 .buttons:hover {
-  background-color: #265b5f;
+  background-color: #008080;
+}
+input[type="checkbox"] {
+  margin-left: 10%;
 }

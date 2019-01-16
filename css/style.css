@@ -3,6 +3,7 @@ body {
   }
 form {
   border: 1px solid #ffffff;
-  float: center;
+  margin: 25%;
   padding: 18px;
+  color: white;
   }

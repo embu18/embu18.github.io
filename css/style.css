@@ -10,22 +10,24 @@ form {
   border-shadow: 0px 0px 6px #cccccc;
 }
 input {
+  margin-bottom: 9px;
+  
   font-family: "Roboto", sans-serif;
-  border-radius: 9px;
-  border: 1px solid #cccccc;
+  color: #ffffff;
 }
 
 input[text],
 input[password] {
-  width: 180px;
+  width: 90%;
   height: 18px;
-  margin-bottom: 9px;
-  color: #ffffff;
+  
+  border-radius: 9px;
+  border: 1px solid #cccccc;
 }
 
 input[submit] {
-  width: 90px;
-  margin-bottom: 9px;
-  color: #ffffff;
+  width: 60%;
   background-color: teal;
+  
+  border:none;
 }

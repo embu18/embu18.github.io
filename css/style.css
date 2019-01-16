@@ -5,6 +5,7 @@ form {
   border: 1px solid #ffffff;
   margin: 60px;
   padding: 18px;
+  border-radius: 6px;
 }
 .inputs {
   width: 180px;

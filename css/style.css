@@ -57,5 +57,5 @@ input[type="checkbox"] {
 }
 ::placeholder {
   color: white;
-  font-weight: bold;
+  font-weight: lighter;
 }

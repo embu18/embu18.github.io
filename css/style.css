@@ -55,3 +55,7 @@ form {
 input[type="checkbox"] {
   margin-left: 10%;
 }
+::placeholder {
+  color: white;
+  font-weight: bold;
+}

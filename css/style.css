@@ -9,10 +9,13 @@ form {
 }
 .inputs {
   width: 180px;
-  color: white;
+  margin: 9px;
 }
 
 .buttons {
   width: 90px;
-  color: white;
+  margin: 9px;
+}
+label {
+  color: #ffffff;
 }

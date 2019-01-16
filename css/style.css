@@ -20,7 +20,7 @@ input[password] {
   border: 1px solid #cccccc;
 }
 
-.buttons {
+input[submit] {
   width: 90px;
   margin: 9px;
   color: #ffffff;

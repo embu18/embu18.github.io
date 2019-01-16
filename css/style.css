@@ -3,14 +3,15 @@ body {
 }
 form {
   border: 1px solid #ffffff;
-  margin: 25%;
+  margin: 60px;
   padding: 18px;
-  color: white;
 }
 .inputs {
   width: 180px;
+  color: white;
 }
 
 .buttons {
   width: 90px;
+  color: white;
 }

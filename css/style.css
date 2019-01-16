@@ -1,9 +1,16 @@
 body {
   background-color: #242424;
-  }
+}
 form {
   border: 1px solid #ffffff;
   margin: 25%;
   padding: 18px;
   color: white;
-  }
+}
+.inputs {
+  width: 180px;
+}
+
+.buttons {
+  width: 90px;
+}

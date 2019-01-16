@@ -31,10 +31,11 @@ form {
   font-size: 18px;
 }
 .inputs:hover {
-  background-color: #008080;
+  background-color: #008B8B;
+  color: #ffffff;
 }
 .buttons {
-  height: 13%;
+  height: 16%;
   width: 40%;
   border: none;
   border-radius: 5px;
@@ -48,7 +49,8 @@ form {
   font-size: 18px;
 }
 .buttons:hover {
-  background-color: #008080;
+  background-color: #008B8B;
+  color: #ffffff;
 }
 input[type="checkbox"] {
   margin-left: 10%;

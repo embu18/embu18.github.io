@@ -15,7 +15,7 @@ li {
   font-family: "Roboto", sans-serif;
 }
 li:hover {
-  transition-duration: 180ms;
+  transition-duration: 600ms;
   transform: scaleX(0.1);
   border-right-color: #008080;
   background-color: #363636;

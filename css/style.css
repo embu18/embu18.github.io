@@ -2,9 +2,10 @@ body {
   background-color: #202020;
 }
 form {
+  text-align: center;
   width: 240px;
   height: 180px;
-  padding:18px;
+  /* padding:18px; */
 
   margin-top: 10%;
   margin-left: 30%;
@@ -21,14 +22,14 @@ form:hover {
   height: 200px;
   transition-duration: 260ms;
 }
+
 .inputs {
   height: 24px;
   width: 80%;
-  border: none;
+  border: 1px solid #363636;
   border-radius: 5px;
   margin: 6px;
-  margin-bottom: 6%;
-  margin-left: 10%;
+  /* margin-left: 14%; */
 
   background-color: #363636;
   font-family: "Roboto", sans-serif;
@@ -40,16 +41,27 @@ form:hover {
 /*  background-color: #008B8B; */
   color: #008080;
 }
-.inputs:hover {
-  border: 1px solid #008080;
+.inputs:first-child {
+  width: 70%;
+  margin-top: 6%;
 }
+.inputs:hover {
+  transition-duration: 180ms;
+  transition-property: width;
+  border: 1px solid #008080;
+  width: 80%;
+}
+input[type="password"] {
+  width: 70%;
+}
+
 .buttons {
   height: 16%;
   width: 40%;
   border: none;
   border-radius: 5px;
   margin: 9px;
-  margin-left: 30%;
+  /* margin-left: 30%;  */
 
   background-color: #363636;
   font-family: "Roboto", sans-serif;
@@ -63,7 +75,8 @@ form:hover {
   border: 1px solid #008B8B;
 }
 input[type="checkbox"] {
-  margin-left: 10%;
+  /* margin-left: 10%; */
+  margin-top: 9%;
 }
 ::placeholder {
   color: white;

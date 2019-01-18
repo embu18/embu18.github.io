@@ -46,9 +46,8 @@ article {
   width: 60%;
   height: 30%;
   position: relative;
-  border: 1px solid white;
-  border-radius: 9px;
-  box-shadow: 0 0 18px #008080;
+  /* border-radius: 9px; */
+  box-shadow: 0 0 12px #008080;
   margin-left: 18%;
   margin-right: 18%;
   margin-top: 3%;
@@ -56,8 +55,9 @@ article {
   padding: 1%;
 }
 article:hover {
-  box-shadow: 0 0 36px #008080;
-  transition-duration: 180ms;
+  border-left: 18px solid #008080;
+  box-shadow: 0 0 20px #008080;
+  transition-duration: 600ms;
 }
 input[type="submit"] {
   position: relative;

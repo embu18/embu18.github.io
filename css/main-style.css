@@ -42,7 +42,7 @@ p {
   color: white;
   font-family: "Roboto", sans-serif;
 }
-article {
+.posts {
   width: 60%;
   height: 30%;
   position: relative;
@@ -54,10 +54,10 @@ article {
   margin-bottom: 3%;
   padding: 1%;
 }
-article:hover {
+.posts:hover {
   border-left: 18px solid #008080;
   box-shadow: 0 0 20px #008080;
-  transition-duration: 600ms;
+  transition-duration: 300ms;
 }
 input[type="submit"] {
   position: relative;

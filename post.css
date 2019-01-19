@@ -1,0 +1,97 @@
+header {
+  background-color: #222222;
+  min-height: 36px;
+  padding: 18px;
+}
+body {
+  background-color: #202020;
+
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+nav a {
+  display:inline;
+  margin-right: 1.8%;
+  border-right: 8px solid #363636;
+  padding: 0.6%;
+  padding-left: 1%;
+  padding-top: 0.3%;
+
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+nav a:hover {
+  transition-duration: 300ms;
+  border-right-color: #008080;
+  background-color: #363636;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.blogpost {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  margin-top: 3%;
+  box-shadow: 0 0 12px #008080;
+  padding: 1.8%;
+}
+.blogpost:hover {
+  box-shadow: 0 0 18px #008080;
+}
+
+.comments {
+  width: 66%;
+  margin: 1.8%;
+  /* border: 1px solid white; */
+  background-color: #262626;
+
+  padding: 1.8%;
+}
+.comments:hover {
+  border-left: 6px solid #008080;
+  transition-duration: 360ms;
+}
+aside {
+  width: 40%;
+  margin-left: 12%;
+  margin-top: 3%;
+  box-shadow: 0 0 12px #008080;
+
+  padding: 1%;
+}
+aside:hover {
+  box-shadow: 0 0 18px #008080;
+  transition-duration: 180ms;
+}
+aside h2 {
+  font-size: 15px;
+}
+aside div {
+  display: inline;
+
+}
+.date {
+  font-size: 14px;
+  color: #606060;
+  margin-left: 64%;
+
+}
+.reply {
+
+}
+.reply input[type="submit"] {
+  width: 90px;
+  height: 30px;
+  border: 1px solid #363636;
+  border-radius: 6px;
+  background-color: #363636;
+
+  color: white;
+  font-size: 16px;
+}
+.reply input[type="submit"]:hover {
+  border: 1px solid #008080;
+}

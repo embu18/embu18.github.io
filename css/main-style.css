@@ -23,7 +23,7 @@ nav a {
 }
 nav a:hover {
   transition-duration: 300ms;
-  border-right-color: #008080;
+  border-right-color: #00C0EA;
   background-color: #363636;
   border-radius: 2px;
   cursor: pointer;
@@ -50,17 +50,15 @@ p {
   width: 60%;
   height: 30%;
   position: relative;
-  /* border-radius: 9px; */
-  box-shadow: 0 0 12px #008080;
-  margin-left: 18%;
-  margin-right: 18%;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  padding: 1%;
+  box-shadow: 0 0 12px #00C0EA;
+  margin: auto;
+  margin-top: 1.8%;
+  margin-bottom: 1.8%;
+  padding: .4%;
 }
 .posts:hover {
-  border-left: 18px solid #008080;
-  box-shadow: 0 0 20px #008080;
+  border-left: 18px solid #00C0EA;
+  box-shadow: 0 0 20px #00C0EA;
   transition-duration: 300ms;
 }
 input[type="submit"] {
@@ -80,9 +78,8 @@ input[type="submit"] {
   color: white;
 }
 input[type="submit"]:hover {
-  border: 1px solid #008080;
+  border: 1px solid #00C0EA;
   border-radius: 6px;
-  color: #008080;
 
   cursor: pointer;
 }

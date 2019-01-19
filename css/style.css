@@ -35,10 +35,6 @@ form:hover {
   text-align: center;
   font-size: 18px;
 }
-.inputs:hover::placeholder {
-/*  background-color: #008B8B; */
-  color: #008080;
-}
 .inputs:first-child {
   width: 70%;
   margin-top: 6%;
@@ -68,8 +64,6 @@ input[type="password"] {
   font-size: 18px;
 }
 .buttons:hover {
-/*  background-color: #008B8B; */
-  color: #008080;
   border: 1px solid #008B8B;
 }
 input[type="checkbox"] {

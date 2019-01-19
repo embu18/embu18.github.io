@@ -3,21 +3,21 @@ body {
 }
 form {
   text-align: center;
-  width: 240px;
-  height: 180px;
+  width: 280px;
+  height: 190px;
   /* padding:18px; */
   margin: auto;
   margin-top: 10%;
   /* margin-left: 45%; */
-  border: 1px solid #ffffff;
-  border-radius: 6px;
-  box-shadow: 0 0 24px #008080;
+  border: 1px solid #202020;
+  /* border-radius: 6px; */
+  box-shadow: 0 0 12px #008080;
 
   color:#ffffff;
   font-size: 18px;
 }
 form:hover {
-  box-shadow: 0 0 90px #008080;
+  box-shadow: 0 0 36px #008080;
   transition-duration: 260ms;
 }
 

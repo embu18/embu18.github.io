@@ -8,7 +8,7 @@ body {
 
   font-family: 'Roboto', sans-serif;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
 }
 nav a {
   display:inline;
@@ -25,7 +25,7 @@ nav a {
 }
 nav a:hover {
   transition-duration: 300ms;
-  border-right-color: #008080;
+  border-right-color: #00C0EA;
   background-color: #363636;
   border-radius: 2px;
   cursor: pointer;
@@ -34,12 +34,15 @@ nav a:hover {
   width: 80%;
   height: 50%;
   margin: auto;
-  margin-top: 3%;
-  box-shadow: 0 0 12px #008080;
-  padding: 1.8%;
+  margin-top: 1.8%;
+  margin-bottom: 1.8%;
+
+  padding: 1.4%;
+  box-shadow: 0 0 12px #00C0EA;
+  border-radius: 3px;
 }
 .blogpost:hover {
-  box-shadow: 0 0 18px #008080;
+  box-shadow: 0 0 18px #00C0EA;
 }
 
 .comments {
@@ -51,19 +54,20 @@ nav a:hover {
   padding: 1.8%;
 }
 .comments:hover {
-  border-left: 6px solid #008080;
+  border-left: 6px solid #00C0EA;
   transition-duration: 360ms;
 }
 aside {
   width: 40%;
   margin-left: 12%;
   margin-top: 3%;
-  box-shadow: 0 0 12px #008080;
 
   padding: 1%;
+  box-shadow: 0 0 12px #00C0EA;
+  border-radius: 3px;
 }
 aside:hover {
-  box-shadow: 0 0 18px #008080;
+  box-shadow: 0 0 18px #00C0EA;
   transition-duration: 180ms;
 }
 aside h2 {
@@ -71,7 +75,6 @@ aside h2 {
 }
 aside div {
   display: inline;
-
 }
 .date {
   font-size: 14px;
@@ -93,5 +96,6 @@ aside div {
   font-size: 16px;
 }
 .reply input[type="submit"]:hover {
-  border: 1px solid #008080;
+  border: 1px solid #00C0EA;
+  cursor: pointer;
 }

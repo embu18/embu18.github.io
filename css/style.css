@@ -4,20 +4,19 @@ body {
 form {
   text-align: center;
   width: 280px;
-  height: 190px;
+  height: 160px;
   /* padding:18px; */
   margin: auto;
   margin-top: 10%;
-  /* margin-left: 45%; */
   border: 1px solid #202020;
-  /* border-radius: 6px; */
-  box-shadow: 0 0 12px #008080;
+  border-radius: 3px;
+  box-shadow: 0 0 12px #00C0EA;
 
   color:#ffffff;
   font-size: 18px;
 }
 form:hover {
-  box-shadow: 0 0 36px #008080;
+  box-shadow: 0 0 36px #00C0EA;
   transition-duration: 260ms;
 }
 
@@ -42,7 +41,7 @@ form:hover {
 .inputs:hover {
   transition-duration: 180ms;
   transition-property: width;
-  border: 1px solid #008080;
+  border: 1px solid #00C0EA;
   width: 72.6%;
 }
 input[type="password"] {
@@ -50,12 +49,11 @@ input[type="password"] {
 }
 
 .buttons {
-  height: 16%;
+  height: 28px;
   width: 40%;
   border: none;
   border-radius: 5px;
-  margin: 9px;
-  /* margin-left: 30%;  */
+  margin: 12px;
 
   background-color: #363636;
   font-family: "Roboto", sans-serif;
@@ -64,21 +62,9 @@ input[type="password"] {
   font-size: 18px;
 }
 .buttons:hover {
-  border: 1px solid #008B8B;
-}
-input[type="checkbox"] {
-  /* margin-left: 10%; */
-  margin-top: 9%;
+  border: 1px solid #00C0EA;
 }
 ::placeholder {
   color: white;
   font-weight: normal;
-
-}
-a {
-  text-decoration: none;
-  color: teal;
-}
-a:hover {
-  text-decoration: underline;
 }

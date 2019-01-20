@@ -1,10 +1,12 @@
 header {
-  background-color: #222222;
+  background-color: #242424;
   min-height: 36px;
   padding: 18px;
 }
-body {
+html, body {
   background-color: #202020;
+  margin: 0;
+  padding: 0;
 
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -32,7 +34,8 @@ nav a:hover {
 }
 .blogpost {
   width: 80%;
-  height: 50%;
+  max-width: 100rem;
+
   margin: auto;
   margin-top: 1.8%;
   margin-bottom: 1.8%;
@@ -46,12 +49,8 @@ nav a:hover {
 }
 
 .comments {
-  width: 66%;
-  margin: 1.8%;
-  /* border: 1px solid white; */
+  width: 80%;
   background-color: #262626;
-
-  padding: 1.8%;
 }
 .comments:hover {
   border-left: 6px solid #00C0EA;
@@ -59,10 +58,12 @@ nav a:hover {
 }
 aside {
   width: 40%;
-  margin-left: 12%;
-  margin-top: 3%;
+  min-width: 18rem;
+  margin-left: 8.6%;
+  /* margin-top: 3%;  */
 
-  padding: 1%;
+  float: left;
+  padding: .6%;
   box-shadow: 0 0 12px #00C0EA;
   border-radius: 3px;
 }
@@ -79,23 +80,6 @@ aside div {
 .date {
   font-size: 14px;
   color: #606060;
-  margin-left: 64%;
+  float: right;
 
-}
-.reply {
-
-}
-.reply input[type="submit"] {
-  width: 90px;
-  height: 30px;
-  border: 1px solid #363636;
-  border-radius: 6px;
-  background-color: #363636;
-
-  color: white;
-  font-size: 16px;
-}
-.reply input[type="submit"]:hover {
-  border: 1px solid #00C0EA;
-  cursor: pointer;
 }

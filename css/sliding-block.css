@@ -1,0 +1,27 @@
+.sliding-block {
+  /* width: 66%; */
+  margin: auto;
+  margin-top: 1.8%;
+  margin-bottom: 1.8%;
+  padding: 1em;
+  overflow: auto;
+}
+.sliding-block:hover {
+  border-left: auto solid #00C0EA;
+  transition-duration: 360ms;
+}
+.sliding-block p {
+  margin-bottom: 1.8%;
+  width: fill-available;
+
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.sliding-block h2 {
+  margin-left: 1.4%;
+  margin-top: 0.6%;
+  margin-bottom: 0.2%;
+
+  color: white;
+  font-family: "Roboto", sans-serif;
+}

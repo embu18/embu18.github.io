@@ -6,22 +6,40 @@
     <title>Limb network</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
+    <!-- <script>
       jQuery(document).ready(function(){
         jQuery('form').hover(function() {
           jQuery(this).hide();
         });
       });
+    </script> -->
+    <script>
+      jQuery(document).ready(function() {
+        jQuery('input').focus(function(){
+          jQuery(this).css("border", "1px solid #00C0EA");
+        });
+        jQuery('input').blur(function() {
+          jQuery(this).css('border', 'none');
+        });
+      });
     </script>
+    <!-- <script>
+      jQuery(document).ready(function() {
+        jQuery('.button').click(function() {
+          var win = window.open('https://embu18.github.io/main.html', '_self');
+          win.focus();
+        });
+      });
+    </script> -->
   </head>
   <body>
     <header>
 
     </header>
-    <form action="/echo" method="post">
+    <form action="https://embu18.github.io/main.html">
       <input type="text" class="inputs" placeholder="myname@pm.me" name="login" id="log"></input><br>
       <input type="password" class="inputs" placeholder="Password" name="pass"></input><br>
-      <input type="submit" class="buttons" value="submit"></input>
+      <input type='submit' class="buttons" value="submit"></input>
     </form>
     <footer>
 

@@ -1,0 +1,21 @@
+input[type="submit"] {
+  margin-left: 3%;
+  border: 1px solid #363636;
+  border-radius: 4px;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+
+  background-color: #363636;
+  float: left;
+
+  font-size: 18px;
+  color: white;
+}
+input[type="submit"]:hover {
+  border: 1px solid #00C0EA;
+  border-radius: 4px;
+
+  cursor: pointer;
+}

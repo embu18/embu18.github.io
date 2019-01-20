@@ -1,11 +1,13 @@
 header {
-  background-color: #222222;
+  background-color: #242424;
   min-height: 36px;
   padding: 18px;
 }
 
-body {
+html, body {
   background-color: #202020;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
@@ -28,58 +30,16 @@ nav a:hover {
   border-radius: 2px;
   cursor: pointer;
 }
-h2 {
-  margin-left: 1.4%;
-  margin-top: 0.6%;
-  margin-bottom: 0.2%;
 
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
-p {
-  padding: 1.5%;
-  width: fill-available;
-  height: 54%;
-  margin-bottom: 1.4%;
-  margin-top: 0.15%;
-
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
 .posts {
-  width: 60%;
-  height: 30%;
+  width:80%;
+  max-width: 100rem;
+  max-height: 33%;
   position: relative;
   box-shadow: 0 0 12px #00C0EA;
-  margin: auto;
-  margin-top: 1.8%;
-  margin-bottom: 1.8%;
-  padding: .4%;
+  /* padding: .4%; */
 }
 .posts:hover {
-  border-left: 18px solid #00C0EA;
+  border-left: 1em solid #00C0EA;
   box-shadow: 0 0 20px #00C0EA;
-  transition-duration: 300ms;
-}
-input[type="submit"] {
-  position: relative;
-
-  margin-left: 3%;
-  border: 1px solid #363636;
-  border-radius: 6px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-
-  background-color: #363636;
-
-  font-size: 18px;
-  color: white;
-}
-input[type="submit"]:hover {
-  border: 1px solid #00C0EA;
-  border-radius: 6px;
-
-  cursor: pointer;
 }

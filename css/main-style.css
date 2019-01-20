@@ -34,7 +34,7 @@ nav a:hover {
 .posts {
   width:80%;
   max-width: 100rem;
-  max-height: 33%;
+/*   max-height: 33%; */
   position: relative;
   box-shadow: 0 0 12px #00C0EA;
   /* padding: .4%; */

@@ -5,13 +5,14 @@ body {
 form {
   text-align: center;
   width: 280px;
-  height: 160px;
+  height: 200px;
   margin: auto;
   margin-top: 10%;
   border: 1px solid #202020;
   border-radius: 3px;
   box-shadow: 0 0 12px #00C0EA;
 
+  padding-top: .6%;
   color:#ffffff;
   font-size: 18px;
 }
@@ -22,7 +23,7 @@ form:hover {
 
 .inputs {
   height: 24px;
-  width: 80%;
+  width: 72.6%;
   border: 1px solid #363636;
   border-radius: 5px;
   margin: 6px;
@@ -35,35 +36,15 @@ form:hover {
   font-size: 18px;
 }
 .inputs:first-child {
-  width: 70%;
   margin-top: 6%;
 }
 .inputs:hover {
   transition-duration: 180ms;
   transition-property: width;
   border: 1px solid #00C0EA;
-  width: 72.6%;
-}
-input[type="password"] {
-  width: 70%;
+  width:  76%;
 }
 
-.buttons {
-  height: 28px;
-  width: 40%;
-  border: none;
-  border-radius: 5px;
-  margin: 12px;
-
-  background-color: #363636;
-  font-family: "Roboto", sans-serif;
-  color: #ffffff;
-  text-align: center;
-  font-size: 18px;
-}
-.buttons:hover {
-  border: 1px solid #00C0EA;
-}
 ::placeholder {
   color: white;
   font-weight: normal;

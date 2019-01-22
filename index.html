@@ -5,6 +5,7 @@
   <head>
     <title>Limb network</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- <script>
       jQuery(document).ready(function(){
@@ -23,23 +24,24 @@
         });
       });
     </script>
-    <!-- <script>
+    <script>
       jQuery(document).ready(function() {
         jQuery('.button').click(function() {
           var win = window.open('https://embu18.github.io/main.html', '_self');
           win.focus();
         });
       });
-    </script> -->
+    </script>
   </head>
   <body>
     <header>
-
     </header>
-    <form action="https://embu18.github.io/main.html">
+    <form>
+      <label for="log">Login </label><br>
       <input type="text" class="inputs" placeholder="myname@pm.me" name="login" id="log"></input><br>
-      <input type="password" class="inputs" placeholder="Password" name="pass"></input><br>
-      <input type='submit' class="buttons" value="submit"></input>
+      <label for="pass">Password</label><br>
+      <input type="password" class="inputs" placeholder="*********" id="pass"></input><br>
+      <div class="button">Submit</div>
     </form>
     <footer>
 

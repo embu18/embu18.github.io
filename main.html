@@ -6,6 +6,15 @@
   <link rel="stylesheet" href="css/main-style.css">
   <link rel="stylesheet" href="css/sliding-block.css">
   <link rel="stylesheet" href="css/button.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    jQuery(document).ready(function() {
+      jQuery('.button').click(function() {
+        var win = window.open('https://embu18.github.io/post.html', '_self');
+        win.focus();
+      });
+    });
+  </script>
 </head>
 <body>
   <header>
@@ -24,7 +33,7 @@ learned Scala/FP, it’s safe to say that I wrote it for someone like me who has
 with OOP in Java, but has only a limited FP background. Specifically, this is
 someone who became interested in Scala because of its clean, modern syntax, and
 now wants a “simple but thorough” introduction to functional programming in Scala.</p>
-    <input type="submit" name="submit" value="read">
+    <div class="button read"> Read </div>
   </article>
   <article class="sliding-block posts">
     <h2>Functional Programming in Scala</h2>
@@ -37,7 +46,7 @@ the book we rely heavily on programming exercises, carefully chosen and
 sequenced to guide you to discover FP for yourself. Expository text is often just
 enough to lead you to the next exercise. Do these exercises and you will learn the
 material. Read without doing and you will find yourself lost.</p>
-    <input type="submit" name="submit" value="read">
+    <div class="button read"> Read </div>
   </article>
   <article class="sliding-block posts">
     <h2>Functional Programming for Mortals
@@ -45,7 +54,7 @@ with Scalaz</h2>
     <p>his book is for the typical Scala developer, probably with a Java background, who is both sceptical
 and curious about the Functional Programming (FP) paradigm. This book justifies every concept
 with practical examples, including writing a web application.</p>
-    <input type="submit" name="submit" value="read">
+    <div class="button read"> Read </div>
   </article>
   <article class="sliding-block posts">
     <h2>A Beginner’s Guide to
@@ -61,7 +70,7 @@ programming. They also step through other concepts with which the reader may not
 be familiar (such as list processing). From this background, it provides a practical
 introduction to object and functional technology using Scala, one of the newest and
 most interesting programming languages available.</p>
-    <input type="submit" name="submit" value="read">
+    <div class="button read"> Read </div>
   </article>
 </aside>
   <footer></footer>

@@ -1,5 +1,8 @@
-input[type="submit"] {
-  margin-left: 3%;
+.button {
+  width: 50px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: 1rem;
   border: 1px solid #363636;
   border-radius: 4px;
   padding-left: 1.2rem;
@@ -8,14 +11,17 @@ input[type="submit"] {
   padding-bottom: .3rem;
 
   background-color: #363636;
-  float: left;
 
+  text-align: center;
   font-size: 18px;
   color: white;
 }
-input[type="submit"]:hover {
+.button:hover {
   border: 1px solid #00C0EA;
   border-radius: 4px;
 
   cursor: pointer;
+}
+.read {
+  float: left;
 }
